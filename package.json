@@ -1,13 +1,13 @@
 {
-  "author": "Mike Fielden",
-  "name": "ng-compass-boilerplate",
+  "author": "Jason Williams",
+  "name": "son-of-calamari",
   "version": "0.0.1",
-  "homepage": "https://github.com/MikeFielden/ng-compass-boilerplate",
+  "homepage": "http://github.com/jasonwill/son-of-calamari",
   
-  "bugs": "https://github.com/MikeFielden/ng-compass-boilerplate/issues",
+  "bugs": "https://github.com/jasonwill/son-of-calamari/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:MikeFielden/ng-compass-boilerplate.git"
+    "url": "git@github.com:jasonwill/son-of-calamari.git"
   },
   "dependencies": {},
   "devDependencies": {
