@@ -13,7 +13,6 @@ files = [
   'build/angular/angular-mocks.js',
   'src/**/*.js',
   'dist/tmp/**/*.js',
-  'vendor/angular-bootstrap/*.js',
   'vendor/angular-ui-utils/modules/route/*.js'
 ];
 
@@ -54,6 +53,6 @@ autoWatch = false;
  * the aesthetic advantage of not launching a browser every time you save.
  */
 browsers = [
-  'Chrome'
+  'ChromeCanary'
 ];
 
