@@ -1,8 +1,8 @@
-angular.module( 'ngBoilerplate', [
+angular.module( 'sonOfCalamari', [
   'app-templates',
   'component-templates',
-  'ngBoilerplate.home',
-  'ngBoilerplate.about',
+  'sonOfCalamari.home',
+  'sonOfCalamari.about',
   'ui.route'
 ])
 
@@ -11,7 +11,7 @@ angular.module( 'ngBoilerplate', [
 })
 
 .run( function run ( titleService ) {
-  titleService.setSuffix( ' | ngBoilerplate' );
+  titleService.setSuffix( ' | sonOfCalamari' );
 })
 
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location ) {
