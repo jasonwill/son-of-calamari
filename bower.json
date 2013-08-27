@@ -2,8 +2,6 @@
   "name": "ng-compass-boilerplate",
   "version": "0.0.1",
   "devDependencies": {
- 		"sass-bootstrap": "2.3.2",
- 		"angular-bootstrap": "0.5.0",
-    "angular-ui-utils": "latest"
+ 	  "angular-ui-utils": "latest"
   }
 }
