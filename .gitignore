@@ -1,0 +1,10 @@
+*.sw*
+*~
+dist/
+node_modules/
+vendor/angular/
+vendor/angular-bootstrap/
+vendor/angular-ui-utils/
+vendor/jquery/
+vendor/sass-bootstrap/
+.sass-cache/
