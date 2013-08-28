@@ -3,6 +3,7 @@ angular.module( 'sonOfCalamari', [
   'component-templates',
   'sonOfCalamari.home',
   'sonOfCalamari.about',
+  'sonOfCalamari.footer',
   'ui.route'
 ])
 
