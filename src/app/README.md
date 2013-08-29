@@ -22,7 +22,7 @@ route `/products`, though this is in no way enforced. Products may then have
 subdirectories for "create", "view", "search", etc. The "view" submodule may
 then define a route of `/products/:id`, ad infinitum.
 
-As `ngCompassBoilerplate` is quite minimal, take a look at the two provided submodules
+As `ngBoilerplate` is quite minimal, take a look at the two provided submodules
 to gain a better understanding of how these are used as well as to get a
 glimpse of how powerful this simple construct can be.
 
@@ -42,11 +42,11 @@ submodules that need them to ensure proper dependency handling. These are
 app-wide dependencies that are required to assemble your app.
 
 ```js
-angular.module( 'ngCompassBoilerplate', [
+angular.module( 'ngBoilerplate', [
   'app-templates',
   'component-templates',
-  'ngCompassBoilerplate.home',
-  'ngCompassBoilerplate.about'
+  'ngBoilerplate.home',
+  'ngBoilerplate.about'
 ])
 ```
 
@@ -58,7 +58,7 @@ is where we want to start, which has a defined route for `/home` in
 `src/app/home/home.js`.
 
 ```js
-.config( function ngCompassBoilerplateConfig ( $routeProvider ) {
+.config( function ngBoilerplateConfig ( $routeProvider ) {
   $routeProvider.otherwise({ redirectTo: '/home' });
 })
 ```
@@ -70,7 +70,7 @@ this now to ensure it runs before our controllers set titles.
 
 ```js
 .run([ 'titleService', function run ( titleService ) {
-  titleService.setSuffix( ' | ngCompassBoilerplate' );
+  titleService.setSuffix( ' | ngBoilerplate' );
 }])
 ```
 
@@ -85,7 +85,7 @@ menu logic or page title wiring.
 
 ### Testing
 
-One of the design philosophies of `ngCompassBoilerplate` is that tests should exist
+One of the design philosophies of `ngBoilerplate` is that tests should exist
 alongside the code they test and that the build system should be smart enough to
 know the difference and react accordingly. As such, the unit test for `app.js`
 is `app.spec.js`, though it is quite minimal.
