@@ -14,13 +14,13 @@ angular.module( 'sonOfCalamari', [
   $stateProvider
     .state('detail', {
       url: "/detail",
-      templateUrl: "events/detail.tpl.html"
+      templateUrl: "eventService/detail.tpl.html"
     })
     .state('list', {
       url: "/list",
-      templateUrl: "events/list.tpl.html",
+      templateUrl: "eventService/list.tpl.html",
       controller: function($scope){
-        $scope.items = ["A", "List", "Of", "Items"];
+        $scope.haps = ["Assignment 1", "Quiz 1", "Project 2", "Quiz 2"];
       }
     })
   ;
