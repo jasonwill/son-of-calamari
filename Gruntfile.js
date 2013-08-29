@@ -60,7 +60,7 @@ module.exports = function ( grunt ) {
      * build tasks. `js` is all project javascript, less tests. `atpl` contains
      * our reusable components' template HTML files, while `ctpl` contains the
      * same, but for our app's code. `html` is just our main HTML file and 
-     * `less` is our main stylesheet.
+     * `sass` is our main stylesheet.
      */
     src: {
       js: [ 'src/**/*.js', '!src/**/*.spec.js' ], 
@@ -85,8 +85,8 @@ module.exports = function ( grunt ) {
      */
     vendor: {
       js: [
-        /*'vendor/angular-bootstrap/ui-bootstrap-tpls.min.js',*/
-        'vendor/angular-ui-utils/modules/route/route.js'
+        'vendor/angular-ui-router/release/angular-ui-router.js'
+        //'vendor/angular-ui-utils/modules/route/route.js'
       ]
     },
 
