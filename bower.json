@@ -2,6 +2,7 @@
   "name": "son-of-calamari",
   "version": "0.0.1",
   "devDependencies": {
- 	  "angular-ui-utils": "latest"
+ 	  "angular-ui-utils": "latest",
+    "angular-ui-router": "latest"
   }
 }
