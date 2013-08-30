@@ -1,5 +1,8 @@
 describe( 'AppCtrl', function() {
-  describe( 'isCurrentUrl', function() {
+	
+  beforeEach(module('ui.state'));
+	
+  describe( 'isCurrentState', function() {
     var AppCtrl, $location, $scope;
 
     beforeEach( module( 'sonOfCalamari' ) );
@@ -13,5 +16,7 @@ describe( 'AppCtrl', function() {
     it( 'should pass a dummy test', inject( function() {
       expect( AppCtrl ).toBeTruthy();
     }));
+
+
   });
 });
